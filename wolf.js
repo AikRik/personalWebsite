@@ -68,7 +68,7 @@ function finish() {
         alert("Invalid E-mail adress")
     } else if (!jar && ml && !kl) {
         alert("You need more than two words in your request")
-    } else(alert("You done did fucked up son!"))
+    } else(alert("Please fill in the form."))
 
 
 
