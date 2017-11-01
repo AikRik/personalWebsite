@@ -42,61 +42,49 @@ $("#rightside img").click(
     }
 );
 
-document.getElementById("finish").onclick= finish
+
+
+
+
+
+document.getElementById("finish").onclick = finish
 
 function finish() {
-	var a = document.getElementsByTagName("input")[2].value
-	var b = document.getElementsByTagName("input")[3].value
-	var c = document.getElementsByTagName("input")[4].value
+    var a = document.getElementsByTagName("input")[2].value
+    var b = document.getElementsByTagName("input")[3].value
+    var c = document.getElementsByTagName("input")[4].value
 
-	console.log(a)
+    console.log(a)
 
-	var jar = string1(a)
-	var ml = br(b)
-	var kl = psh(c)
-	console.log(a)
-	if(!jar && ml && kl){
-		alert("Thank you! Your request has been received")
-	}
-	else if(jar && ml && kl){
-		alert("Your name should be without digits")
-	}
-	else if(!jar && !ml && kl){
-		alert("Invalid E-mail adress")
-	}
-	else if(!jar && ml && !kl){
-		alert("You need more than two words in your request")
-	}
-	else(alert("You done did fucked up son!"))
+    var jar = string1(a)
+    var ml = br(b)
+    var kl = psh(c)
+    console.log(a)
+    if (!jar && ml && kl) {
+        alert("Thank you! Your request has been received")
+    } else if (jar && ml && kl) {
+        alert("Your name should be without digits")
+    } else if (!jar && !ml && kl) {
+        alert("Invalid E-mail adress")
+    } else if (!jar && ml && !kl) {
+        alert("You need more than two words in your request")
+    } else(alert("You done did fucked up son!"))
 
 
 
+    function string1(a) {
+        var jark = /\d/;
+        return jark.test(a);
+    }
 
+    function br(b) {
+        var melk = /\@/;
+        return melk.test(b)
+    }
 
-
-function string1(a) {
-    var jark = /\d/;
-    return jark.test(a);
-}
-
-function br(b){
-	var melk = /\@/;
-	return melk.test(b)
-}
-
-function psh(c){
-	var kelk = /[a-zA-Z]+\s+[a-zA-Z]+/g;
-	return kelk.test(c)
-}
+    function psh(c) {
+        var kelk = /[a-zA-Z]+\s+[a-zA-Z]+/g;
+        return kelk.test(c)
+    }
 
 }
-
-
-
-
-
-
-
-
-
-
