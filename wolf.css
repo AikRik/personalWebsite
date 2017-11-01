@@ -1,0 +1,160 @@
+body {
+    background: /*url(images/bos.jpg)*/
+    #60934E;
+
+    color: black;
+}
+
+h1 {
+    display: inline;
+    color: black;
+    margin: 0 auto;
+    width: 300px;
+}
+
+ul {
+    display: inline-table;
+    background-color: white;
+}
+
+form {
+    float: right;
+}
+
+p {
+    display: inline-block;
+    color: black;
+    padding: 20px;
+}
+
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
+nav {
+    height: 60px;
+    width: 99%;
+    position: fixed;
+    background-color: white;
+    color: black;
+    border: 2px black solid;
+    opacity: 0.7;
+}
+
+button {
+    float: right;
+}
+
+iframe {
+    width: 150px;
+    height: 150px;
+}
+
+article {
+    width: 500px;
+    margin: 0 auto;
+    border: 2px black solid;
+    padding-left: 30px;
+}
+
+article img {
+    position: relative;
+    width: 230px;
+    height: 250px;
+}
+
+article h1 {
+    text-align: center;
+    display: block;
+
+    margin: 0 auto;
+}
+
+nav:hover {
+    opacity: 1.0;
+}
+
+.space {
+
+    height: 100px;
+    width: 100%
+}
+
+.homepic {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.main-container {
+    float: left;
+    position: relative;
+    left: 50%;
+}
+
+.fixer-container {
+    float: left;
+    position: relative;
+    left: -50%;
+}
+
+.homepic2 {
+    text-align: center;
+}
+
+.hi {
+    margin: 0 auto;
+    width: 900px;
+}
+
+.hi img {
+    width: 400px;
+}
+
+.nofloat {
+    clear: both;
+}
+
+.wiki {
+    display: inline-block;
+}
+
+.her {
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.last {
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.w3-teal {
+    float: left;
+}
+
+#leftside {
+    float: left;
+    width: 25%;
+}
+
+#rightside {
+    float: right;
+    width: 25%;
+}
+
+#rightside img {
+    width: 300px;
+}
+#contactForm{
+    float: left;
+    position: static;
+    
+}
+#finish{
+    float: left;
+}

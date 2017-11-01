@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="wolf.css">
+    <title>Wolven</title>
+</head>
+
+<body>
+    <header>
+        <h1>The Wolf Webpage</h1>
+    </header>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <nav>
+        <button id="submit"> Submit </button>
+        <form>
+            Username:
+            <input type="text" value="username">
+            <br/> Password:
+            <input type="text" value="password">
+        </form>
+        <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+            <button class="w3-bar-item w3-button w3-large" onclick="w3_close()">Close &times;
+            </button>
+            <a href="wolf.html" class="w3-bar-item w3-button">Home</a>
+            <br/>
+            <a href="about.html" class="w3-bar-item w3-button">About</a>
+            <br/>
+            <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
+            <br/>
+        </div>
+        <div id="main">
+            <div class="w3-teal">
+                <button id="openNav" class="w3-button w3-teal w3-xlarge" onclick="w3_open()"> &#9776;
+                </button>
+            </div>
+        </div>
+    </nav>
+    <br/>
+    <div class="space">
+    </div>
+    <article id="leftside">
+        <iframe src="https://giphy.com/embed/jjk6QvYigtn9u" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/jjk6QvYigtn9u"></a></p>
+    </article> 
+
+    <article id="rightside">
+    	<p> Click on Me:) <p>
+    	<img src="images/oldWolf.jpeg">
+    	<img src="images/oldWolf1.jpeg">
+    </article>
+
+    <article>
+        <h1>The Wolf</h1>
+        <h2 id="hert"></h2>
+        <script type="text/javascript" src="wolf.js"></script>
+        <br/>
+        <br/>
+        <div class="main-container">
+            <div class="fixer-container ">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbt7uI1g3VE5BPT6TVAYjR66ov0gmCW39E4ZcwFqliNyhn1cFV" alt="Wolf 3" class="homepic">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnUO6QYoHK4Q_1IjZmZho5zdknQa8ubD1ZFumbZ6uIb7JGG7DG" alt="Wolf 4" class="homepic">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYC_MvajmFl9QTwG_fhATU8tbe_2KBJFKg4iR-kwRMZ08fdHyR7Q" alt="Wolf 5" class="homepic">
+                <img src="images/wolfCubG.gif" alt="Wolf1" class="homepic">
+                <iframe width="854" height="480" src="https://www.youtube.com/embed/bbHQyF0nFCk" frameborder="0" gesture="media" allowfullscreen></iframe>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWJ5wrTjdX0ICm_YRannClV5J72C248ce2b15ofN5rmaxO6RTnXg" alt="Wolf2" class="homepic">
+            </div>
+        </div>
+        <p class="nofloat">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <br/>
+            <br/> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <br/>
+            <br/> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <br/>
+            <br/> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <br/>
+            <br/>
+        </p>
+        Wolf Howling:
+        <audio controls>
+            <source src="wolfHowl.mp3" type="audio/mpeg">
+        </audio>
+    </article>
+   
+
+
+    <footer>
+        <p>@created by Rik</p>
+    </footer>
+</body>
+
+</html>
