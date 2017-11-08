@@ -1,9 +1,24 @@
+
+
 body {
     background: /*url(images/bos.jpg)*/
     #60934E;
 
     color: black;
 }
+@media (max-width: 1000px){
+    body{
+        background-color: white;
+    }
+    .column{
+        float: left; 
+        width: 50%;
+        box-sizing: border-box;
+
+    }
+   } 
+}
+
 
 h1 {
     display: inline;
